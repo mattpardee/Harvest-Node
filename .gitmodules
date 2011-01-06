@@ -1,0 +1,3 @@
+[submodule "restler"]
+	path = res/restler
+	url = git://github.com/mattpardee/restler.git
