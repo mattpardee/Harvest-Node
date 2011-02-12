@@ -159,7 +159,6 @@ var Harvest = this.Harvest = function(username, password, harvest_subdomain) {
     * 
     * This HTTP response is 201 with the new client ID in this style:
     * /clients/#{new_client_id}
-    * 
     *****/
     this.createNewClient = function(client_name, details, cb) {
         xmlstr = '<client>'
